@@ -15,6 +15,7 @@ class Transfer
       @receiver.balance += @amount
       @status = 'complete'
     else
-
+      'Transfer is not valid'
+    end
   end
 end
