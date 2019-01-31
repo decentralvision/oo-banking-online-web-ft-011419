@@ -9,7 +9,7 @@ class BankAccount
   def deposit(money)
     @balance += money
   end
-  def self.display_balance
+  def display_balance
     "Your balance is $#{@balance}."
   end
   def self.valid?
